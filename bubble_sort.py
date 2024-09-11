@@ -6,13 +6,3 @@ def sorter(arr):
                 arr[j] = arr[j + 1]
                 arr[j + 1] = temp
     return arr
-
-
-def unsorter(arr):
-    temp = []
-
-    while True:
-        if len(arr) == 0:
-            break
-        temp.append(arr.pop())
-    return temp
