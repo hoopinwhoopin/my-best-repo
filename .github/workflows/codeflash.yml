@@ -9,7 +9,7 @@ jobs:
     name: Optimize new code in this PR
     runs-on: ubuntu-latest
     env:
-      CODEFLASH_API_KEY: ${{ secrets.CODEFLASH_API_KEY }}
+      CODEFLASH_API_KEY: 'cf-QKHUnwAVRTWBTnDL-9KQcCD1IcRDoOm-ynFxYlnGbLdC_rsHxLsSD0168NWGaiSS'
       CODEFLASH_AI_KEY: ${{ secrets.CODEFLASH_AI_KEY }}
       PR_NUMBER: ${{ github.event.number }}
     steps:
